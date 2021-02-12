@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.newdanceradio" name="New Dance Radio" version="1.0.0" provider-name="AVG">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    	<source>https://github.com/dancebeatfm/plugin.audio.newdanceradio</source>
+        <summary lang="en">New Dance Radio</summary>
+        <license>GNU General Public License, v3</license>
+        <description lang="en_GB">NON-commercial radio station playing hits of all times and peoples. Only the best music, only great mood. Thank you all for your attention to our humble brainchild. Good mood and loud hits to everyone!</description>
+		<description lang="ru_RU">Некоммерческая радио станция играющая хиты всех времен и народов. Только лучшая музыка, только прекрасное настроение. Спасибо всем за уделенное внимание к нашему скромному детищу. Хорошего всем настроения и громких хитов!</description>
+        <disclaimer lang="en_GB">Official New Dance Radio addon</disclaimer>
+        <disclaimer lang="ru_RU">Оффициальный аддон радиостанции New Dance Radio</disclaimer>
+		<platform>all</platform>
+        <language>ru en</language>
+		<website>www.newdanceradio.ru</website>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
